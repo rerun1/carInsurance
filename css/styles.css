@@ -1,0 +1,147 @@
+/* Akzidenz Grotesk converted */
+@font-face {
+  font-family: 'akzidenz-grotesk';
+  src : url('../fonts/akzidenz/AkzidGroLig.eot');
+  src : url('../fonts/akzidenz/AkzidGroLig.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroLig.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroLig.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroLig.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk';
+  src : url('../fonts/akzidenz/AkzidGroRom.eot');
+  src : url('../fonts/akzidenz/AkzidGroRom.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroRom.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroRom.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroRom.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* altered Berthold name to make this Italic only named truetype with BE */
+@font-face {
+  font-family: 'akzidenz-grotesk';
+  src : url('../fonts/akzidenz/AkzidGroRomIt.eot');
+  src : url('../fonts/akzidenz/AkzidGroRomIt.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroRomIt.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroRomIt.woff') format('woff'),        url('../fonts/akzidenz/AkzidGroBEIt.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk';
+  src : url('../fonts/akzidenz/AkzidGroBol.eot');
+  src : url('../fonts/akzidenz/AkzidGroBol.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroBol.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroBol.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroBol.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* altered Berthold name to make this Italic */
+@font-face {
+  font-family: 'akzidenz-grotesk';
+  src : url('../fonts/akzidenz/AkzidGroBolIt.eot');
+  src : url('../fonts/akzidenz/AkzidGroBolIt.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroBolIt.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroBolIt.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroBEBolIt.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'akzidenz-grotesk';
+  src : url('../fonts/akzidenz/AkzidGroBla.eot');
+  src : url('../fonts/akzidenz/AkzidGroBla.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroBla.woff2') format('woff2'),        url('../fonts/akzidenz/AkzidGroBla.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroBla.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* End Akzidenz */
+
+
+/* Akzidenz Grotesk Converted */
+.akzidenz {
+  font-family: 'akzidenz-grotesk', sans-serif;
+  font-variant: normal;
+
+}
+.akzidenzLight {
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: .02em;
+  word-spacing: -.01em;
+}
+.akzidenzReg {
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .02em;
+  word-spacing: -.02em;
+}
+.akzidenzRegItalic {
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: .01em;
+}
+.akzidenzBold {
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: .03em;
+  word-spacing: -.01em;
+}
+.akzidenzBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: .01em;
+}
+.akzidenzBlack {
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: .03em;
+  word-spacing: -.01em;
+}
+/*end akzidenz*/
+
+body {
+  font-family: 'akzidenz-grotesk', sans-serif;
+  font-variant: normal;
+  font-weight: 300;
+  background-color: rgba(0,0,0,1.0);
+  color: rgba(255,255,255,1.0);
+  background-image:url("../img/geikoLizardFlat.jpg");
+  background-position: top 500px center;
+  background-size: 300px 200px;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-weight: 800;
+}
+.form-control {
+  color: rgba(255,255,255,1.0);
+  background-color: rgba(0,0,0,1.0);
+  border: 0px solid rgba(0,0,0,1.0);
+}
+
+#lizardQuote {
+  display: none;
+}
